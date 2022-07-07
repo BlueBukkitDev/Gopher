@@ -5,9 +5,25 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <link rel="stylesheet" href="stylesheets/application.css">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <style>
+
+      .navbar {
+        position: sticky;
+      }
+      .navbar_item {
+        margin: 40px; 
+        padding: 0px; 
+        display: inline; 
+        background-color: #bbbbbb;
+      }
+      .menu {
+        background-color: #999999;
+        padding: 3px;
+      }
+
+    </style>
   </head>
 
   <body>
