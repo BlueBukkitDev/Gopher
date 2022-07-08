@@ -1,13 +1,16 @@
 
       .menu {
+        display: flex;
+        flex-direction: horizontal;
         position: sticky;
-        padding: 0px;
+        padding: 2px;
+        margin: 0px;
         background-color: #404040
       }
       .navbar_item {
-        margin: 0px; 
-        padding: 15px; 
-        display: inline-block; 
+        margin: auto; 
+        padding: 15px;
+        display: inline-block;
         background-color: #606060;
       }
       a:link { 
