@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    #stuff can go in here
+    @items = Item.all
   end
 
   def about
