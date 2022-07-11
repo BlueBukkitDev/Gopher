@@ -8,6 +8,10 @@
         background-color: #404040
       }
 
+      .goldtext {
+        color: #FFD800;
+      }
+
       .navbar_item {
         margin: auto; 
         padding-top: 15px;
@@ -38,6 +42,16 @@
         text-decoration:none;
       }
 
-      .goldtext {
-        color: #FFD800;
+      #items th {
+        color: #0088BB;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      #items tr:nth-child(even){
+        background-color: #f2f2f2aa;
+      }
+
+      #items td:hover {
+        background-color: #f2f2f2aa;
       }

@@ -1,11 +1,15 @@
 class Item < ApplicationRecord
 
-	def get_name
+	def get_itemName
 		self.itemname
 	end
 
-	def get_in_stock
+	def get_inStock
 		self.inshop
+	end
+
+	def get_partNumber
+		self.partnumber
 	end
 
 end
