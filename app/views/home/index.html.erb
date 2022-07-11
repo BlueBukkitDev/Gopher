@@ -13,13 +13,17 @@
 <p class="goldtext">Deez nuts - Ha! Goteem</p>
 <p class="goldtext">All items in the db:</p>
 <table id="items">
+
 	<th>Item Name</th>
 	<th>Qty In Stock</th>
 	<th>Qty To Order</th>
 	<th>Part number</th>
+
 	<%= @items.each do |item| %>
 	<% end %>
+
 </table>
+
 <% @items.each do |item| %>
 	<li class="goldtext"><%= item.get_itemName %> : <%= item.get_inStock %></li>
 <% end %>
