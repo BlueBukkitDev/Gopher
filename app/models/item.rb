@@ -1,5 +1,5 @@
 class Item < ApplicationRecord
-
+	
 	def get_itemName
 		self.itemname
 	end
@@ -23,6 +23,7 @@ class Item < ApplicationRecord
 			if self.reorder-self.inshop < 0#2 - 5 //reorder at 2, we have 5, we need to order -3
 				0
 			else self.reorder-self.inshop
+			end
 		else 0
 		end
 	end
