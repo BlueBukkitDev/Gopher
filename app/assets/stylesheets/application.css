@@ -103,7 +103,7 @@ a:active {
           input:-webkit-autofill:hover, 
           input:-webkit-autofill:focus, 
           input:-webkit-autofill:active{
-          background-color: #606060;
+  -webkit-box-shadow: 0 0 0 30px #606060 inset !important;
 }
 
 .saveButton input{
