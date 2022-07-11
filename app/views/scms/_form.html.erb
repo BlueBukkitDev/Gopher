@@ -123,8 +123,8 @@
   </div>
 </div>
 
-  <div class="saveButton">
-    <%= form.submit "Submit New Item" %>
-  </div>
+  <%= form.submit "Submit New Item", :class => "saveButton"%>
+  <%= button_to "Cancel", scms_path %>
 <% end %>
 
+<!-- %= button_to "Add", new_admin_course_path, :id => "open-contacts-dialog-btn", :class => "inbox-sf-add-btn tip", :method => :get %> -->
