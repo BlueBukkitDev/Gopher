@@ -3,32 +3,41 @@
         display: flex;
         flex-direction: horizontal;
         position: sticky;
-        padding: 2px;
+        padding: 5px;
         margin: 0px;
         background-color: #404040
       }
+
       .navbar_item {
         margin: auto; 
-        padding: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 180px;
+        padding-right: 180px;
         display: inline-block;
         background-color: #606060;
       }
+
       a:link { 
         color: #FFD800;
         text-decoration:none;
       }
+
       a:visited { 
         color: #FFD800;
         text-decoration:none;
       }
+
       a:hover { 
         color: #FFD800;
         text-decoration:none;
       }
+
       a:active { 
         color: #FFD800;
         text-decoration:none;
       }
+
       .goldtext {
         color: #FFD800;
       }
