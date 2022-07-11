@@ -95,8 +95,15 @@ a:active {
   background-color: #606060;
 }
 
-.editForm input:focus {
+/*.editForm input-webkit-autofill {
   background-color: #606060;
+}*/
+
+.editForm input:-webkit-autofill,
+          input:-webkit-autofill:hover, 
+          input:-webkit-autofill:focus, 
+          input:-webkit-autofill:active{
+          background-color: #606060;
 }
 
 .saveButton input{
