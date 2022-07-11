@@ -19,7 +19,7 @@
 	<th>Part number</th>
 	<% @items.each do |item| %>
 		<tr>
-			
+			<td><%= item.get_itemName %></td>
 		</tr>
 	<% end %>
 </table>
