@@ -19,13 +19,10 @@
 	<th>Part number</th>
 	<% @items.each do |item| %>
 		<tr>
-			<td><%= item.get_itemName %></td>
+			<td><%= item.get_itemName %></td><td><%= item.get_inStock %></td><td><%= item.get_partNumber %></td>
 		</tr>
 	<% end %>
 </table>
-<% @items.each do |item| %>
-	<li class="goldtext"><%= item.get_itemName %> : <%= item.get_inStock %></li>
-<% end %>
 
 
 
