@@ -82,5 +82,8 @@ a:active {
 }
 
 .editForm {
-  
+  color: #FFD800;
+  background-color: #606060;
+  margin: 3px;
+  padding: 1.5px;
 }
