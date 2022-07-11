@@ -107,5 +107,9 @@ a:active {
 }
 
 .saveButton input{
-  background-color: #305070;
+  background-color: #34bf4b;
+}
+
+.cancelBurito {
+  background-color: #34bf4b;
 }
