@@ -1,7 +1,7 @@
 <%= form_with(model: scm) do |form| %>
   <% if scm.errors.any? %>
     <div style="color: red">
-      <h2><%= pluralize(scm.errors.count, "error") %> prohibited this scm from being saved:</h2>
+      <h2><%= pluralize(scm.errors.count, "error") %> prohibited this item from being saved:</h2>
 
       <ul>
         <% scm.errors.each do |error| %>
@@ -11,117 +11,117 @@
     </div>
   <% end %>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :item_name, style: "display: block" %>
     <%= form.text_field :item_name %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :part_number, style: "display: block" %>
     <%= form.text_field :part_number %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :description, style: "display: block" %>
     <%= form.text_area :description %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :in_shop, style: "display: block" %>
     <%= form.number_field :in_shop %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :allocated, style: "display: block" %>
     <%= form.number_field :allocated %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :ordered, style: "display: block" %>
     <%= form.number_field :ordered %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :restock, style: "display: block" %>
     <%= form.number_field :restock %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :stock_cap, style: "display: block" %>
     <%= form.number_field :stock_cap %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :category, style: "display: block" %>
     <%= form.text_field :category %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :verified_when, style: "display: block" %>
     <%= form.date_field :verified_when %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :verified_by, style: "display: block" %>
     <%= form.text_field :verified_by %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :unit, style: "display: block" %>
     <%= form.text_field :unit %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier0, style: "display: block" %>
     <%= form.text_field :supplier0 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier1, style: "display: block" %>
     <%= form.text_field :supplier1 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier2, style: "display: block" %>
     <%= form.text_field :supplier2 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier3, style: "display: block" %>
     <%= form.text_field :supplier3 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier4, style: "display: block" %>
     <%= form.text_field :supplier4 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier5, style: "display: block" %>
     <%= form.text_field :supplier5 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier6, style: "display: block" %>
     <%= form.text_field :supplier6 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier7, style: "display: block" %>
     <%= form.text_field :supplier7 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier8, style: "display: block" %>
     <%= form.text_field :supplier8 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.label :supplier9, style: "display: block" %>
     <%= form.text_field :supplier9 %>
   </div>
 
-  <div>
+  <div class="goldtext">
     <%= form.submit %>
   </div>
 <% end %>
