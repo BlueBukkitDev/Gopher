@@ -95,6 +95,6 @@ a:active {
   background-color: #606060;
 }
 
-#createSCM input{
-  background-color: black;
+.saveButton input{
+  background-color: #305070;
 }
