@@ -95,6 +95,10 @@ a:active {
   background-color: #606060;
 }
 
+.editForm input:focus {
+  background-color: #606060;
+}
+
 .saveButton input{
   background-color: #305070;
 }
