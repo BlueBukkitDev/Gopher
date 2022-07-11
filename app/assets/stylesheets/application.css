@@ -95,7 +95,6 @@ a:active {
   background-color: #606060;
 }
 
-#createSCM {
-  color: green;
-  background-color: #404040;
+#createSCM input{
+  background-color: black;
 }
