@@ -106,7 +106,7 @@ a:active {
   -webkit-box-shadow: 0 0 0 30px #606060 inset !important;
 }
 
-.saveButton input{
+.saveButton {
   background-color: #34bf4b;
 }
 
