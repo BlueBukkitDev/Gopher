@@ -1,0 +1,9 @@
+<% @scms.each do |scm| %>
+  <tr id="<%= dom_id scm %>">
+    <td> <%= scm.item_name %> </td>
+    <td> <%= scm.part_number %> </td>
+    <td> <%= scm.in_shop %> </td>
+    <td> <%= scm.get_toOrder %> </td>
+    <td> <%= link_to "Edit", edit_scm_path(scm) %> </td>
+  </tr>
+<% end %>

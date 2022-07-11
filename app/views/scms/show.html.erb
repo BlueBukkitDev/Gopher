@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @scm %>
+
+<div>
+  <%= link_to "Edit this scm", edit_scm_path(@scm) %> |
+  <%= link_to "Back to scms", scms_path %>
+
+  <%= button_to "Destroy this scm", @scm, method: :delete %>
+</div>

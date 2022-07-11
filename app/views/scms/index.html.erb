@@ -1,0 +1,21 @@
+<p style="color: green"><%= notice %></p>
+
+<h1 class="goldtext">All Items</h1>
+
+<div id="scms">
+  <table id="items">
+    <thead>
+      <th>Item Name</th>
+      <th>Part Number</th>
+      <th>In Stock</th>
+      <th>Needed</th>
+    </thead>
+    <tbody>
+      <%= render 'all_items' %>
+    </tbody>
+  </table>
+</div>
+
+<%= link_to "New scm", new_scm_path %>
+
+<!-- %= link_to "Show this scm", scm %> -->

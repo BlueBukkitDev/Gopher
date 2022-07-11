@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_07_11_144448) do
+ActiveRecord::Schema[7.0].define(version: 2022_07_11_164829) do
   create_table "items", force: :cascade do |t|
     t.string "itemname"
     t.string "partnumber"
@@ -23,6 +23,33 @@ ActiveRecord::Schema[7.0].define(version: 2022_07_11_144448) do
     t.string "category"
     t.date "verifiedwhen"
     t.string "verifiedby"
+    t.string "unit"
+    t.string "supplier0"
+    t.string "supplier1"
+    t.string "supplier2"
+    t.string "supplier3"
+    t.string "supplier4"
+    t.string "supplier5"
+    t.string "supplier6"
+    t.string "supplier7"
+    t.string "supplier8"
+    t.string "supplier9"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "scms", force: :cascade do |t|
+    t.string "item_name"
+    t.string "part_number"
+    t.text "description"
+    t.integer "in_shop"
+    t.integer "allocated"
+    t.integer "ordered"
+    t.integer "restock"
+    t.integer "stock_cap"
+    t.string "category"
+    t.date "verified_when"
+    t.string "verified_by"
     t.string "unit"
     t.string "supplier0"
     t.string "supplier1"

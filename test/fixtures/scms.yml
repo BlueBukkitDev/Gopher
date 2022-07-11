@@ -1,0 +1,49 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item_name: MyString
+  part_number: MyString
+  description: MyText
+  in_shop: 1
+  allocated: 1
+  ordered: 1
+  restock: 1
+  stock_cap: 1
+  category: MyString
+  verified_when: 2022-07-11
+  verified_by: MyString
+  unit: MyString
+  supplier0: MyString
+  supplier1: MyString
+  supplier2: MyString
+  supplier3: MyString
+  supplier4: MyString
+  supplier5: MyString
+  supplier6: MyString
+  supplier7: MyString
+  supplier8: MyString
+  supplier9: MyString
+
+two:
+  item_name: MyString
+  part_number: MyString
+  description: MyText
+  in_shop: 1
+  allocated: 1
+  ordered: 1
+  restock: 1
+  stock_cap: 1
+  category: MyString
+  verified_when: 2022-07-11
+  verified_by: MyString
+  unit: MyString
+  supplier0: MyString
+  supplier1: MyString
+  supplier2: MyString
+  supplier3: MyString
+  supplier4: MyString
+  supplier5: MyString
+  supplier6: MyString
+  supplier7: MyString
+  supplier8: MyString
+  supplier9: MyString
