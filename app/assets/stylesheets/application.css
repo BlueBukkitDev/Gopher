@@ -12,6 +12,10 @@
         color: #FFD800;
       }
 
+      .aquatext {
+        color: #0088BB;
+      }
+
       .navbar_item {
         margin: auto; 
         padding-top: 15px;
@@ -48,8 +52,17 @@
         text-align: center;
       }
 
-      #items tr:nth-child(even){
+      #items tr:nth-child(odd){
+        background-color: #f2f2f215;
+      }
+
+      #items tr:nth-child(even) {
         background-color: #f2f2f225;
+      }
+
+      #items td {
+        color: #0088BB;
+        text-align: left;
       }
 
       #items td:hover {

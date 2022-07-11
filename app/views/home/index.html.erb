@@ -19,7 +19,10 @@
 	<tbody>
 		<% @items.each do |item| %>
 			<tr>
-				<td><%= item.get_itemName %></td><td><%= item.get_inStock %></td><td><%= item.get_partNumber %></td>
+				<td class="aquatext"><%= item.get_itemName %></td>
+				<td class="aquatext"><%= item.get_inStock %></td>
+				<td class="aquatext"><%= item.get_toOrder %></td>
+				<td class="aquatext"><%= item.get_partNumber %></td>
 			</tr>
 		<% end %>
 	</tbody>
