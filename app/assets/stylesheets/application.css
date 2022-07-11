@@ -86,6 +86,16 @@ a:active {
   margin: 3px;
   padding: 1.5px;
 }
+
 .editForm input {
   background-color: #606060;
+}
+
+.editForm textarea {
+  background-color: #606060;
+}
+
+#createSCM {
+  color: green;
+  background-color: #404040;
 }
