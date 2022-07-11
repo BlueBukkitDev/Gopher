@@ -95,10 +95,6 @@ a:active {
   background-color: #606060;
 }
 
-/*.editForm input-webkit-autofill {
-  background-color: #606060;
-}*/
-
 .editForm input:-webkit-autofill,
           input:-webkit-autofill:hover, 
           input:-webkit-autofill:focus, 
@@ -107,9 +103,9 @@ a:active {
 }
 
 .saveButton {
-  background-color: #34bf4b;
+  background-color: #30803e;
 }
 
 .cancelBurito {
-  background-color: #34bf4b;
+  background-color: #30803e;
 }
