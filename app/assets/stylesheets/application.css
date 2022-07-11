@@ -8,6 +8,18 @@
         background-color: #404040
       }
 
+      .footer {
+        background-color: #404040;
+        margin-top: 95%;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        position: sticky;
+        height: 5%;
+        width: 100%;
+      }
+
       .goldtext {
         color: #FFD800;
       }
