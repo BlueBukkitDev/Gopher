@@ -58,6 +58,10 @@ a:active {
   text-decoration:none;
 }
 
+#items table {
+  border-collapse: separate;
+}
+
 #items th {
   color: #00CCEE;
   font-weight: bold;
