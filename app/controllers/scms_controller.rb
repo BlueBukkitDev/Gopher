@@ -25,7 +25,7 @@ class ScmsController < ApplicationController
 
     respond_to do |format|
       if @scm.save
-        format.html { redirect_to root_path, notice: "Scm was successfully created." }
+        format.html { redirect_to scms_url(@scm), notice: "Scm was successfully created." }
         format.json { render :show, status: :created, location: @scm }
       else
         format.html { render :new, status: :unprocessable_entity }
