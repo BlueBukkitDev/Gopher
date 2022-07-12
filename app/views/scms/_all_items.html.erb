@@ -1,10 +1,11 @@
 <% @scms.each do |scm| %>
   <tr id="<%= dom_id scm %>">
-    <td> <%= scm.item_name %> </td>
+    <td> <%= link_to ""+scm.item_name, redirect_to: scms_url(@scm) %>  </td>
     <td> <%= scm.part_number %> </td>
     <td> <%= scm.in_shop %> </td>
     <td> <%= scm.get_toOrder %> </td>
     <td> <%= link_to "Edit", edit_scm_path(scm) %> </td>
-    <td> <%= link_to "Destroy", @scms.last.destroy, method: :delete %> </td>
+    <td> <input></input> </td><!--Try to put an input here which just runs a method "@scms.last.destroy"-->
+    <!-- <td> %= link_to "Destroy", @scms.last.destroy, method: :delete %> </td> -->
   </tr>
 <% end %>
