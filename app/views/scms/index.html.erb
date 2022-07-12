@@ -1,8 +1,8 @@
 <p style="color: green"><%= notice %></p>
 
 <h1 class="goldtext">All Items</h1>
-
-<div id="scms">
+<p class="Goteem">Deez Nuts</p>
+<div>
   <table id="items">
     <thead>
       <th>Item Name</th>
@@ -11,14 +11,15 @@
       <th>Needed</th>
     </thead>
     <tbody>
+      <div class="dataEntry">
+        <%= render "form", scm: Scm.new %>
+      </div>
+      <div class="scms">
       <%= render 'all_items' %>
-    </tbody>
-    <div>
-      <%= render "form", scm: Scm.new %>
     </div>
+    </tbody>
   </table>
 </div>
-
 
 
 <!-- %= link_to "Show this scm", scm %> -->

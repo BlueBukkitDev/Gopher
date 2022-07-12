@@ -1,3 +1,7 @@
+.Goteem {
+  display: none;
+}
+
 .menu {
   display: flex;
   flex-direction: horizontal;
@@ -130,6 +134,7 @@ a:active {
 
 .pagecontents {
   padding: 50px;
+  padding-top: 0px;
   float: right;
 }
 
@@ -152,3 +157,13 @@ a:active {
 .sdButtons {
   margin-left: 15px;
 }
+
+.dataEntry {
+  float: right;
+  vertical-align: top;
+}
+
+.scms {
+  padding: 6px;
+}
+
