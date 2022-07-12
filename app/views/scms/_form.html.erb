@@ -20,10 +20,6 @@
       <%= form.text_field :item_name %>
     </div>
     <div>
-      <%= form.label :part_number, style: "display: block" %>
-      <%= form.text_field :part_number %>
-    </div>
-    <div>
       <%= form.label :description, style: "display: block" %>
       <%= form.text_area :description %>
     </div>
@@ -58,19 +54,23 @@
       <%= form.text_field :category %>
     </div>
     <div>
-      <%= form.label :verified_when, style: "display: block" %>
-      <%= form.date_field :verified_when %>
+      <%= form.label :part_number, style: "display: block" %>
+      <%= form.text_field :part_number %>
+    </div>
+    <div>
+      <%= form.label :unit, style: "display: block" %>
+      <%= form.text_field :unit %>
     </div>
     <div>
       <%= form.label :verified_by, style: "display: block" %>
       <%= form.text_field :verified_by %>
     </div>
     <div>
-      <%= form.label :unit, style: "display: block" %>
-      <%= form.text_field :unit %>
+      <%= form.label :verified_when, style: "display: block" %>
+      <%= form.date_field :verified_when %>
     </div>
   </div>
-  
+
   <div class="block">
     <div>
       <%= form.label :supplier0, style: "display: block" %>
@@ -118,8 +118,10 @@
   </div>
 </div>
 </div>
+<div class="sdButtons">
 <%= form.submit "Submit New Entry", :class => "saveButton"%><!--WE NEED TO HAVE FORM SUBMIT SEND TO THE MAIN PAGE-->
 <a href="/scms"><%= button_to "Cancel", scms_path, :class => "cancelBurrito"%></a>
 <% end %>
+</div>
 </div>
 <!-- scms_index_path is legit -->

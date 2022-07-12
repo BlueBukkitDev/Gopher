@@ -133,8 +133,17 @@ a:active {
   align-items: center;
 }
 
+.inline textarea {
+  height: 140px;
+  width: 170px;
+}
+
 .block {
   vertical-align: top;
   display: inline-block;
   padding: 12px;
+}
+
+.sdButtons {
+  margin-left: 15px;
 }
