@@ -1,3 +1,4 @@
+<div class="pagecontents">
 <%= form_with(model: scm) do |form| %>
   <% if scm.errors.any? %>
     <div style="color: red">
@@ -12,119 +13,113 @@
   <% end %>
 
 <div class="editForm">
-  <div>
-    <%= form.label :item_name, style: "display: block" %>
-    <%= form.text_field :item_name %>
+  <div class="inline">
+  <div class="block">
+    <div>
+      <%= form.label :item_name, style: "display: block" %>
+      <%= form.text_field :item_name %>
+    </div>
+    <div>
+      <%= form.label :part_number, style: "display: block" %>
+      <%= form.text_field :part_number %>
+    </div>
+    <div>
+      <%= form.label :description, style: "display: block" %>
+      <%= form.text_area :description %>
+    </div>
   </div>
 
-  <div>
-    <%= form.label :part_number, style: "display: block" %>
-    <%= form.text_field :part_number %>
+  <div class="block">
+    <div>
+      <%= form.label :in_shop, style: "display: block" %>
+      <%= form.number_field :in_shop %>
+    </div>
+    <div>
+      <%= form.label :allocated, style: "display: block" %>
+      <%= form.number_field :allocated %>
+    </div>
+    <div>
+      <%= form.label :ordered, style: "display: block" %>
+      <%= form.number_field :ordered %>
+    </div>
+    <div>
+      <%= form.label :restock, style: "display: block" %>
+      <%= form.number_field :restock %>
+    </div>
+    <div>
+      <%= form.label :stock_cap, style: "display: block" %>
+      <%= form.number_field :stock_cap %>
+    </div>
   </div>
 
-  <div>
-    <%= form.label :description, style: "display: block" %>
-    <%= form.text_area :description %>
+  <div class="block">
+    <div>
+      <%= form.label :category, style: "display: block" %>
+      <%= form.text_field :category %>
+    </div>
+    <div>
+      <%= form.label :verified_when, style: "display: block" %>
+      <%= form.date_field :verified_when %>
+    </div>
+    <div>
+      <%= form.label :verified_by, style: "display: block" %>
+      <%= form.text_field :verified_by %>
+    </div>
+    <div>
+      <%= form.label :unit, style: "display: block" %>
+      <%= form.text_field :unit %>
+    </div>
+  </div>
+  
+  <div class="block">
+    <div>
+      <%= form.label :supplier0, style: "display: block" %>
+      <%= form.text_field :supplier0 %>
+    </div>
+    <div>
+      <%= form.label :supplier1, style: "display: block" %>
+      <%= form.text_field :supplier1 %>
+    </div>
+    <div>
+      <%= form.label :supplier2, style: "display: block" %>
+      <%= form.text_field :supplier2 %>
+    </div>
+    <div>
+      <%= form.label :supplier3, style: "display: block" %>
+      <%= form.text_field :supplier3 %>
+    </div>
+    <div>
+      <%= form.label :supplier4, style: "display: block" %>
+      <%= form.text_field :supplier4 %>
+    </div>
   </div>
 
-  <div>
-    <%= form.label :in_shop, style: "display: block" %>
-    <%= form.number_field :in_shop %>
-  </div>
-
-  <div>
-    <%= form.label :allocated, style: "display: block" %>
-    <%= form.number_field :allocated %>
-  </div>
-
-  <div>
-    <%= form.label :ordered, style: "display: block" %>
-    <%= form.number_field :ordered %>
-  </div>
-
-  <div>
-    <%= form.label :restock, style: "display: block" %>
-    <%= form.number_field :restock %>
-  </div>
-
-  <div>
-    <%= form.label :stock_cap, style: "display: block" %>
-    <%= form.number_field :stock_cap %>
-  </div>
-
-  <div>
-    <%= form.label :category, style: "display: block" %>
-    <%= form.text_field :category %>
-  </div>
-
-  <div>
-    <%= form.label :verified_when, style: "display: block" %>
-    <%= form.date_field :verified_when %>
-  </div>
-
-  <div>
-    <%= form.label :verified_by, style: "display: block" %>
-    <%= form.text_field :verified_by %>
-  </div>
-
-  <div>
-    <%= form.label :unit, style: "display: block" %>
-    <%= form.text_field :unit %>
-  </div>
-
-  <div>
-    <%= form.label :supplier0, style: "display: block" %>
-    <%= form.text_field :supplier0 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier1, style: "display: block" %>
-    <%= form.text_field :supplier1 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier2, style: "display: block" %>
-    <%= form.text_field :supplier2 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier3, style: "display: block" %>
-    <%= form.text_field :supplier3 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier4, style: "display: block" %>
-    <%= form.text_field :supplier4 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier5, style: "display: block" %>
-    <%= form.text_field :supplier5 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier6, style: "display: block" %>
-    <%= form.text_field :supplier6 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier7, style: "display: block" %>
-    <%= form.text_field :supplier7 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier8, style: "display: block" %>
-    <%= form.text_field :supplier8 %>
-  </div>
-
-  <div>
-    <%= form.label :supplier9, style: "display: block" %>
-    <%= form.text_field :supplier9 %>
+  <div class="block">
+    <div>
+      <%= form.label :supplier5, style: "display: block" %>
+      <%= form.text_field :supplier5 %>
+    </div>
+    <div>
+      <%= form.label :supplier6, style: "display: block" %>
+      <%= form.text_field :supplier6 %>
+    </div>
+    <div>
+      <%= form.label :supplier7, style: "display: block" %>
+      <%= form.text_field :supplier7 %>
+    </div>
+    <div>
+      <%= form.label :supplier8, style: "display: block" %>
+      <%= form.text_field :supplier8 %>
+    </div>
+    <div>
+      <%= form.label :supplier9, style: "display: block" %>
+      <%= form.text_field :supplier9 %>
+    </div>
   </div>
 </div>
-
-  <%= form.submit "Submit New Entry", :class => "saveButton"%>
-  <a href="http://96.31.56.62:4000/scms"><%= button_to "Cancel", scms_path, :class => "cancelBurrito"%></a>
+</div>
+<%= form.submit "Submit New Entry", :class => "saveButton"%><!--WE NEED TO HAVE FORM SUBMIT SEND TO THE MAIN PAGE-->
+<a href="/scms"><%= button_to "Cancel", scms_path, :class => "cancelBurrito"%></a>
 <% end %>
-
-<!-- %= button_to "Add", new_admin_course_path, :id => "open-contacts-dialog-btn", :class => "inbox-sf-add-btn tip", :method => :get %> -->
+</div>
+<!-- scms_index_path is legit -->

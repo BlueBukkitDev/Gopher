@@ -62,6 +62,8 @@ a:active {
   color: #00CCEE;
   font-weight: bold;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #items tr:nth-child(odd){
@@ -75,6 +77,8 @@ a:active {
 #items td {
   color: #00CCEE;
   text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 #items td:hover {
@@ -104,8 +108,33 @@ a:active {
 
 .saveButton {
   background-color: #30803e;
+  padding: 12px;
+}
+
+.saveButton:hover {
+  background-color: #459550;
 }
 
 .cancelBurrito {
   background-color: #7d2828;
+  padding: 12px;
+}
+
+.cancelBurrito:hover {
+  background-color: #904242;
+}
+
+.pagecontents {
+  padding: 50px;
+}
+
+.inline {
+  display: flex-inline;
+  align-items: center;
+}
+
+.block {
+  vertical-align: top;
+  display: inline-block;
+  padding: 12px;
 }
