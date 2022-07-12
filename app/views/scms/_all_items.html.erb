@@ -5,6 +5,6 @@
     <td> <%= scm.in_shop %> </td>
     <td> <%= scm.get_toOrder %> </td>
     <td> <%= link_to "Edit", edit_scm_path(scm) %> </td>
-    <td> <%= link_to "Destroy", scm, method: :destroy %> </td>
+    <td> <%= link_to "Destroy", @scms.last.destroy, method: :delete %> </td>
   </tr>
 <% end %>

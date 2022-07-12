@@ -26,6 +26,7 @@ class ScmsController < ApplicationController
     respond_to do |format|
       if @scm.save
         format.html { redirect_to scms_url(@scm), notice: "Scm was successfully created." }
+        #format.html { redirect_back fallback_location: scms_url(@scm)}
         format.json { render :show, status: :created, location: @scm }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -52,7 +53,7 @@ class ScmsController < ApplicationController
     @scm.destroy
 
     respond_to do |format|
-      format.html { redirect_to scms_url, notice: "Scm was successfully destroyed." }
+      format.html { redirect_to scms_url(@scm), notice: "Scm was successfully destroyed." }
       format.json { head :no_content }
     end
   end
