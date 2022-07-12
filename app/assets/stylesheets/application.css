@@ -126,6 +126,7 @@ a:active {
 
 .pagecontents {
   padding: 50px;
+  float: right;
 }
 
 .inline {
