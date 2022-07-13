@@ -1,0 +1,3 @@
+class UseReport < ApplicationRecord
+	
+end
