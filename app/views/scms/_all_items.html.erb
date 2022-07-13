@@ -5,7 +5,9 @@
     <td> <%= scm.in_shop %> </td>
     <td> <%= scm.get_toOrder %> </td>
     <td> <%= link_to "Edit", edit_scm_path(scm) %> </td>
-    <td> <input><%= scm %></input> </td><!--Try to put an input here which just runs a method "@scms.last.destroy"-->
-    <!-- <td> %= link_to "Destroy", @scms.last.destroy, method: :delete %> </td> -->
+    <!--td> <input><%= scm %></input> </td> Try to put an input here which just runs a method "@scms.last.destroy"-->
+
+    
+    <td> <%= link_to "Destroy", @scms.last.destroy, method: :delete %> </td>
   </tr>
 <% end %>
