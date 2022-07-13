@@ -42,28 +42,24 @@
   background-color: #606060;
 }
 
-a:link { 
+.standard a:link {
   color: #FFD800;
   text-decoration:none;
 }
 
-a:visited { 
+.standard a:visited { 
   color: #FFD800;
   text-decoration:none;
 }
 
-a:hover { 
+.standard a:hover { 
   color: #FFD800;
   text-decoration:none;
 }
 
-a:active { 
+.standard a:active { 
   color: #FFD800;
   text-decoration:none;
-}
-
-.delete_link a {
-  color: #7d2828;
 }
 
 #items table {

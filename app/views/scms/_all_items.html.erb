@@ -4,7 +4,7 @@
     <td> <%= scm.part_number %> </td>
     <td> <%= scm.in_shop %> </td>
     <td> <%= scm.get_toOrder %> </td>
-    <td> <%= link_to "Edit", edit_scm_path(scm) %> </td>
-    <td> <%= link_to "Delete", scm_url(scm), :class => "delete_link" %> </td>
+    <td class="standard"> <%= link_to "Edit", edit_scm_path(scm) %> </td>
+    <td> <%= link_to "Delete", scm_url(scm), :class => "deleteLink" %> </td>
   </tr>
 <% end %>
