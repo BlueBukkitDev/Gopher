@@ -3,8 +3,7 @@
 <%= render @scm %>
 
 <div>
-  <%= link_to "Edit this scm", edit_scm_path(@scm) %> |
-  <%= link_to "Back to scms", scms_path %>
+  <%= link_to "Back", scms_path %>
 
-  <%= button_to "Destroy this scm", @scm, method: :delete %>
+  <%= button_to "Confirm Delete", @scm, method: :delete %>
 </div>
