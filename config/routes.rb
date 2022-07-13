@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   get 'scms/index'
   get 'scms/use_reports'
-  get 'home/allocated'
-  get 'home/order_reports'
-  get 'home/shipping_reports'
+  get 'scms/order_reports'
+  get 'scms/delivery_reports'
   resources :scms
 
   root 'scms#index'
