@@ -62,6 +62,10 @@ a:active {
   text-decoration:none;
 }
 
+.delete_link a {
+  color: #7d2828;
+}
+
 #items table {
   border-collapse: separate;
 }
@@ -83,7 +87,7 @@ a:active {
 }
 
 #items td {
-  color: #00CCEE;
+  color: #fcd99f;
   text-align: left;
   padding-left: 5px;
   padding-right: 5px;

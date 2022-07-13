@@ -1,9 +1,5 @@
-<p style="color: green"><%= notice %></p>
-
-<%= render @scm %>
-
 <div>
-  <%= link_to "Back", scms_path %>
+  <%= link_to "Back to main", scms_path %>
 
-  <%= button_to "Confirm Delete", @scm, method: :delete %>
+  <%= button_to "Delete", @scm, method: :delete %>
 </div>
