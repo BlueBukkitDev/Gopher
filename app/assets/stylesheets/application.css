@@ -7,8 +7,9 @@
   flex-direction: horizontal;
   position: sticky;
   padding: 5px;
-  margin: 0px;
-  background-color: #404040
+  margin: 5px;
+  background-color: #404040;
+  width: 97%;
 }
 
 .footer {
@@ -40,6 +41,26 @@
   padding-right: 180px;
   display: inline-block;
   background-color: #606060;
+}
+
+.deleteBurrito a:link {
+  color: #FF2828;
+  text-decoration:none;
+}
+
+.deleteBurrito a:visited { 
+  color: #FF2828;
+  text-decoration:none;
+}
+
+.deleteBurrito a:hover { 
+  color: #FF2828;
+  text-decoration:none;
+}
+
+.deleteBurrito a:active { 
+  color: #FF2828;
+  text-decoration:none;
 }
 
 .standard a:link {
@@ -167,3 +188,28 @@
   padding: 6px;
 }
 
+.---- {
+  display: block;
+}
+
+.editMenuContainer {
+  background-color: #181818;
+  border: 2px solid #404040;
+  border-radius: 50px;
+}
+
+.backToIndex {
+  margin: auto;
+  width: 5%;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.deleteEntry {
+  margin: auto;
+  width: 3%;
+  padding: 25px;
+  font-weight: bold;
+  font-size: 24px;
+}

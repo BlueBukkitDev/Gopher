@@ -1,5 +1,8 @@
-<div>
-  <%= link_to "Back to main", scms_path %>
-
-  <%= button_to "Delete", @scm, method: :delete %>
+<div class="editMenuContainer">
+  <div class="backToIndex">
+   <button type="button"> <%= link_to "Back to main", scms_path %> </button>
+  </div>
+  <div class="deleteEntry">
+    <%= button_to "Delete", @scm, method: :delete %>
+  </div>
 </div>
