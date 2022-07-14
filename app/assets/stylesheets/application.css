@@ -188,10 +188,6 @@
   padding: 6px;
 }
 
-.---- {
-  display: block;
-}
-
 .editMenuContainer {
   background-color: #181818;
   border: 2px solid #404040;
@@ -212,4 +208,12 @@
   padding: 25px;
   font-weight: bold;
   font-size: 24px;
+}
+
+.useReportsTable {
+  color: #0088BB;
+  border: 1px solid #FFD80090;
+  margin: auto;
+  width: 1800px;
+  text-align: center;
 }
