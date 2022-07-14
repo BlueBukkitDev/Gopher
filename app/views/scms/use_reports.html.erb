@@ -1,1 +1,51 @@
-<h1 class="goldtext">New Use Report</h1>
+
+<h1 class="goldtext" style="text-align: center;">
+	Page Header Here lol(i) ;)
+</h1>
+
+
+<table class="useReportsTable">
+	<tr class="useReportsTable">
+		<th class="useReportsTable">P.O</th>
+		<th class="useReportsTable">Date</th>
+		<th class="useReportsTable">Created By</th>
+		<th class="useReportsTable">Squiggles</th>
+	</tr>
+	<tr class="useReportsTable">
+		<td class="useReportsTable">P.O Entry #1</td>
+		<td class="useReportsTable">Date Entry #1</td>
+		<td class="useReportsTable">Made By Entry #1</td>
+		<td class="useReportsTable">Goat #1</td>
+	</tr>
+	<tr class="useReportsTable">
+		<td class="useReportsTable">P.O Entry #2</td>
+		<td class="useReportsTable">Date Entry #2</td>
+		<td class="useReportsTable">Made By Entry #2</td>
+		<td class="useReportsTable">Goat #2</td>
+	</tr>
+	<tr class="useReportsTable">
+		<td class="useReportsTable">P.O Entry #3</td>
+		<td class="useReportsTable">Date Entry #3</td>
+		<td class="useReportsTable">Made By Entry #3</td>
+		<td class="useReportsTable">Goat #3</td>
+	</tr>
+</table>
+
+
+
+<script>
+
+var tables = document.getElementAttribute("table");
+
+for (var i = 0; i < tables.length; i++) {
+
+	var table = tables[i];
+
+	table.setAttribute("id", i + 1);
+
+	/* The line below will also give id
+	dynamically to the tables */
+	//table.id = i+1;
+}
+
+</script>
