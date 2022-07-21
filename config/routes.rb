@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get 'use_reports/use_reports'
   get 'use_reports/use_reports_edit'
+
   resources :scms
   resources :use_reports
 
